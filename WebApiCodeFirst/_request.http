@@ -1,0 +1,19 @@
+﻿GET https://localhost:7253/Courses/GetCourses
+###
+GET https://localhost:7253/Courses/GetCourse/1
+###
+GET https://localhost:7253/Courses/1/Classes
+###
+
+GET https://localhost:7253/Instroctor/GetInstructors#
+###
+
+GET https://localhost:7253/Section/GetSections
+###
+GET https://localhost:7253/Section/1/Classes
+###
+
+GET https://localhost:7253/Students/GetStudents?name=a
+###
+GET https://localhost:7253/Students/StudentByAddress?q=a
+###
